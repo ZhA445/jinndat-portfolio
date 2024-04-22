@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jinndatportfolio</title>
+  <link rel="icon" href="img/laptop-coding.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">Jinn_dat</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#main" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- close btn  -->
+
+        <div class="nav-close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+
+      </div>
+
+      <div class="nav-actions">
+        <div class="nav-theme" >
+          <i class="ri-moon-line" id="theme-button"></i>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+    <section class="home section">
+      <div class="home-rectangle"></div>
+
+      <div class="home-container container grid">
+
+        <div class="home-profile profile">
+          <div class="profile-content">
+            <img src="img/profile.png" alt="image" class="profile-img">
+          </div>
+        </div>
+
+        <div class="home-content grid">
+          <div class="home-data grid">
+            <h1 class="home-name">Jinn Dat</h1>
+
+            <h2 class="home-profession">Back-end Laravel <br> Developer</h2>
+
+            <div class="home-social">
+              <a href="https://www.facebook.com/zin.htet.1426876" target="_blank" class="home-social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+
+              <a href="https://github.com/ZhA445" target="_blank" class="home-social-link">
+                <i class="ri-github-fill"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/zin-htet-8ba1ba268/" target="_blank" class="home-social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home-skills">
+            <h3 class="home-skills-title">Tech Stack</h3>
+            <div class="home-skills-content grid">
+              <img src="/img/html.png" alt="image" class="home-skills-img">
+              <img src="/img/css.png" alt="image" class="home-skills-img">
+              <img src="/img/js.png" alt="image" class="home-skills-img">
+              <img src="/img/laravel.png" alt="image" class="home-skills-img">
+              <img src="/img/figma.png" alt="image" class="home-skills-img">
+              <img src="/img/mysql.png" alt="image" class="home-skills-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-me section container grid" id="about-me">
+      <h2 class="section__title">ABOUT ME</h2>
+
+      <h3 class="about-profession">Back-end Developer</h3>
+
+      <p class="about-description">Hello! I'm JinnDat, a passionate backend developer specializing in laravel.</p>
+
+      <p class="about-description">My main stack currently is Php/Laravel in combination bootstrap.</p>
+    </section>
+
+    <section class="portfolio section grid" id="portfolio">
+      <h2 class="section__title">PORTFOLIO</h2>
+
+      <h2>My Recent Projects</h2>
+
+      <div class="work-container container grid">
+        <article class="work-card">
+          <div class="work grid">
+            <img src="/img/standing_desk.png" alt="image" class="work-img">
+
+            <h3 class="work-title">STANDING DESK ECOMMERCE</h3>
+
+            <span class="work-subtitle">An e-commerce platform dedicated to standing desks. Laravel for back-end and
+              modern front-end frameworks, I developed a responsive and intuitive website.</span>
+
+            <div class="work-language">
+              <p class="work-lang-item">Laravel</p>
+              <p class="work-lang-item">Bootstrap</p>
+            </div>
+
+            <a href="https://github.com/ZhA445/StandingDesk/tree/master" class="work-code" target="_blank">Code <i class="ri-github-fill"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="work-container container grid">
+        <article class="work-card">
+          <div class="work grid">
+            <img src="/img/cafe.png" alt="image" class="work-img">
+
+            <h3 class="work-title">CAFE</h3>
+
+            <span class="work-subtitle">Cafe website is online reservation platform. I crafted an engaging and
+              user-friendly interface that captures the essence of the cafe experience.</span>
+
+            <div class="work-language">
+              <p class="work-lang-item">Laravel</p>
+              <p class="work-lang-item">Bootstrap</p>
+            </div>
+
+            <a href="https://github.com/ZhA445/cafe/tree/master" target="_blank" class="work-code">Code <i class="ri-github-fill"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-container conatiner grid">
+        <h2 class="section__title">CONTACT</h2>
+
+        <div class="contact-page container grid">
+          <form action="" class="contact-form grid" id="contact-form">
+            <div class="contact-group grid">
+              <div class="contact-box">
+                <label for="name" class="contact-label">First Name</label>
+                <input type="text" name="user_name" id="name" required placeholder="Write your name"
+                  class="contact-input">
+              </div>
+
+              <div class="contact-box">
+                <label for="email" class="contact-label">Email Address</label>
+                <input type="email" name="user_email" id="email" required placeholder="Write your email"
+                  class="contact-input">
+              </div>
+            </div>
+            <div class="contact-box contact-area">
+              <label for="message" class="contact-label">Message</label>
+              <textarea name="user_message" id="message" required placeholder="Write your message"
+                class="contact-input"></textarea>
+            </div>
+
+            <p class="contact-message" id="contact-message"></p>
+
+            <button class="contact-send button" type="submit">Send Message</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container container grid">
+      <div class="footer-content grid">
+        <a href="#main" class="footer-logo">Jinn_dat</a>
+
+        <ul class="footer-links">
+          <li>
+            <a href="#about-me" class="footer-link">About Me</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="https://www.facebook.com/zin.htet.1426876" class="footer-social-link" target="_blank">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+
+          <a href="https://www.instagram.com/zin.htet.1426876" class="footer-social-link" target="_blank">
+            <i class="ri-instagram-line"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/zin-htet-8ba1ba268/" class="footer-social-link" target="_blank">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+        </div>
+      </div>
+
+      <span class="footer-copy">
+        Copyright &#169; 2024 All rights are reserved
+      </span>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+
+  <!-- Email js  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- // CONTACT JS  -->
+
+  <script src="js/contact.js"></script>
+
+</body>
+
+</html>
